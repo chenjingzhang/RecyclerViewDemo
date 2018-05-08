@@ -1,0 +1,38 @@
+
+shape是用来定义形状的
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="10dp"></corners>   圆角
+    <stroke android:color="#ddd"></stroke>      描边
+</shape>
+
+
+
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotY="50%"
+    android:pivotX="50%"
+    android:duration="100"
+    android:repeatMode="restart">
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="8"
+        android:useLevel="false"
+        >
+        <gradient   对应颜色渐变
+            android:centerColor="#00ff00"
+            android:startColor="#ff0000"
+            android:endColor="#ffff00"
+            android:angle="45"  从哪个角度开始变
+            android:type="sweep"
+            android:useLevel="false"></gradient>
+    </shape>
+</rotate>
+
+
+
+
+

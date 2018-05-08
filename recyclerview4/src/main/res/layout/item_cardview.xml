@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:ard_view="http://schemas.android.com/tools"
+    card_view:cardBackgroundColor="@color/colorAccent"
+    card_view:contentPadding="20dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="20dp">
+    <!--cardBackgroundColor设置卡片的背景
+     card_view:contentPadding设置卡片背景和内容的间距，备注android:padding无效
+     card_view:cardCornerRadius设置卡片布局的圆角度数
+     cardElevation:设置卡片的背景的阴影部分，值为数值大小-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView" />
+</android.support.v7.widget.CardView>

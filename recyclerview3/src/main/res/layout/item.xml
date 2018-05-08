@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    app:contentPadding="20dp"
+    app:cardBackgroundColor="@color/colorAccent">
+    <!--cardBackgroundColor设置卡片的背景
+     card_view:contentPadding设置卡片背景和内容的间距，备注android:padding无效
+     card_view:cardCornerRadius设置卡片布局的圆角度数
+     cardElevation:设置卡片的背景的阴影部分，值为数值大小-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:scaleType="centerCrop" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_author"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="146dp"
+            app:civ_border_width="1dp"
+            android:layout_marginLeft="10dp"
+            app:civ_border_color="@color/colorAccent"
+            android:layout_below="@+id/tv_title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_author_name"
+            android:layout_alignBottom="@+id/img_author"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/img_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

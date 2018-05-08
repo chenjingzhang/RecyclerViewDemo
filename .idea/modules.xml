@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MvpRecyclerViewItemVideo.iml" filepath="$PROJECT_DIR$/MvpRecyclerViewItemVideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview1/recyclerview1.iml" filepath="$PROJECT_DIR$/recyclerview1/recyclerview1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview2/recyclerview2.iml" filepath="$PROJECT_DIR$/recyclerview2/recyclerview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview3/recyclerview3.iml" filepath="$PROJECT_DIR$/recyclerview3/recyclerview3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview4/recyclerview4.iml" filepath="$PROJECT_DIR$/recyclerview4/recyclerview4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uijiemian/uijiemian.iml" filepath="$PROJECT_DIR$/uijiemian/uijiemian.iml" />
+    </modules>
+  </component>
+</project>
