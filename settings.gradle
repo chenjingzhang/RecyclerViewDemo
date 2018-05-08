@@ -1,1 +1,1 @@
-include ':app', ':uijiemian', ':recyclerview1', ':recyclerview2', ':recyclerview3', ':recyclerview4'
+include ':app', ':uijiemian', ':recyclerview1', ':recyclerview2', ':recyclerview3', ':recyclerview4', ':recyclerview5pubu'
